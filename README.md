@@ -45,7 +45,7 @@ The producer is a Spring Boot application that sends messages to a SQS queue. In
 For simple demonstration purposes, you can use Postman, Insomnia or any other tool like HTTPie to send a POST request to the endpoint. I will use HTTPie in this example. You can download it in the following link: [HTTPie](https://httpie.io/)
 
 ```bash
-http POST localhost:8080/send message="Hello, World!"
+http POST localhost:8081/send message="Hello, World!"
 ```
 
 This command will send a message to the SQS queue and print some logs in the console.
